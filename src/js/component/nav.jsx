@@ -29,7 +29,7 @@ const Nav = () => {
 						<li className="nav-item">
 							<a
 								className="nav-link active text-light"
-								style={{ marginLeft: "1000px" }}
+								style={{ marginLeft: "651px" }}
 								aria-current="page"
 								href="#">
 								Home

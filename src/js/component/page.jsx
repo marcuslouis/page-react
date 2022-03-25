@@ -1,14 +1,17 @@
 import React from "react";
 
 const Page = () => {
+	let j = {
+		marginTop: "192px",
+	};
 	return (
-		<nav className="navbar navbar-expand-lg navbar-Dark bg-dark">
+		<nav className="navbar navbar-expand-lg navbar-Dark bg-dark" style={j}>
 			<div className="container-fluid">
 				<a
 					className="navbar-brand text-light text-right "
 					style={{ marginLeft: "335px" }}
 					href="#">
-					<footer></footer>
+					Start bootstrap
 				</a>
 				<button
 					className="navbar-toggler"
