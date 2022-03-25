@@ -20,7 +20,14 @@ const Home = () => {
 			<div className="container" style={r}>
 				<Jumbo />
 				<div className="card-group" style={m}>
-					<Card /> <Card /> <Card /> <Card />
+					<Card text="Some quick example text to build on the card title and make
+					up the bulk of the card's content." img="https://picsum.photos/200/250?random=4" title="Card title"/> 
+					<Card text="Some quick example text to build on the card title and make
+					up the bulk of the card's content." img="https://picsum.photos/200/250?random=4" title="Card title"/>
+					<Card text="Some quick example text to build on the card title and make
+					up the bulk of the card's content." img="https://picsum.photos/200/250?random=4" title="Card title"/>
+					<Card text="Some quick example text to build on the card title and make
+					up the bulk of the card's content." img="https://picsum.photos/200/250?random=4" title="Card title"/>
 				</div>
 			</div>
 			<Page />

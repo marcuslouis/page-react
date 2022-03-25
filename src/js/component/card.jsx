@@ -1,16 +1,17 @@
 import React from "react";
-const Card = () => {
+import PropTypes from 'prop-types'
+import propTypes from "prop-types";
+const Card = (props) => {
 	return (
 		<div class="card mx-2">
 			<img
 				class="card-img-top"
-				src="https://picsum.photos/200/250?random=4"
+				src={props.img}
 				alt="Card image cap"></img>
 			<div class="card-body">
-				<h5 class="card-title">Card title</h5>
+				<h5 class="card-title">{props.title}</h5>
 				<p class="card-text">
-					Some quick example text to build on the card title and make
-					up the bulk of the card's content.
+					{props.text}
 				</p>
 				<a href="#" class="btn btn-primary">
 					Go somewhere
@@ -19,5 +20,9 @@ const Card = () => {
 		</div>
 	);
 };
-
+Card.PropTypes={
+	text: propTypes.string,
+	img: propTypes.string,
+	title: propTypes.string
+}
 export default Card;
