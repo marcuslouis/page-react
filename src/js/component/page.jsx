@@ -8,8 +8,8 @@ const Page = () => {
 		<nav className="navbar navbar-expand-lg navbar-Dark bg-dark" style={j}>
 			<div className="container-fluid">
 				<a
-					className="navbar-brand text-light text-right "
-					style={{ marginLeft: "335px" }}
+					className="navbar-brand text-light"
+					style={{ marginLeft: "20%" }}
 					href="#">
 					Start bootstrap
 				</a>

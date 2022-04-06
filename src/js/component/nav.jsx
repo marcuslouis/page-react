@@ -10,7 +10,7 @@ const Nav = () => {
 			<div className="container-fluid">
 				<a
 					className="navbar-brand text-light text-right "
-					style={{ marginLeft: "335px" }}
+					style={{ marginLeft: "21%" }}
 					href="#">
 					Start bootstrap
 				</a>
